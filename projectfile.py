@@ -947,3 +947,5 @@ new_row = {'Model Name' : ModelRF3,
            'Balanced Accuracy':balanced_accuracy}
 HTResults1 = HTResults1.append(new_row, ignore_index=True)
 #----------------------------------------------------------------------------------------------------------
+	Model Name	                                        True_Positive	False_Negative	False_Positive	True_Negative	Accuracy	Precision	Recall	F1 Score	Specificity	MCC	ROC_AUC_Score	Balanced Accuracy
+0	(DecisionTreeClassifier(max_depth=10, max_feat...	  284	            290	            125	            1414	        0.804	    0.694	  0.495	    0.578	    0.919	    0.466	  0.706776	    0.707
